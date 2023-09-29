@@ -1,0 +1,303 @@
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#card{
+    background-color: #191919;
+    color: white;
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#card .headall{
+    display: flex;
+}
+#card .headall div {
+    width: 25%;
+    height: 240px;
+    overflow: hidden;
+    padding: 20px;
+}
+#card .headall div img{
+    border-radius: 30px;
+    width: 100%;
+}
+#card .headall div p{ 
+    color: black;
+    padding-left: 10px;
+    position: relative;
+    top: -183px;
+    padding-right: 10px;
+    right: -118px;
+    
+}
+#card .headall div img:hover{
+    border-radius: 70px;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+#laptopcatagory{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+#laptopcatagory section{
+    margin-left: 90px;
+    padding-top: 20px;
+}
+
+#laptopcatagory section div{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#laptopcatagory section div img{
+    border-radius: 20px;
+}
+#laptopcatagory section div img:hover{
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+#appleproducts{
+    width: 80%;
+    margin: auto;
+}
+#appleproducts #apple1 {
+    margin-left: 50px;
+}
+#appleproducts #apple1 img{
+    width: 518px;
+    height: 280px;
+}
+#appleproducts #apple1 div{
+    width: 46%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#appleproducts #apple1 div img{
+    border-radius: 20px;
+}
+#appleproducts #apple1 div img:hover{
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+#appleproducts #apple2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#appleproducts #apple2 img{
+    width: 326px;
+    height: 225px;
+}
+#appleproducts #apple2 div{
+    margin: 10px;
+    width: 10%;
+    display: inline;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#appleproducts #apple2 div img{
+    border-radius: 20px;
+}
+#appleproducts #apple2 div img:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+#phones{
+    width: 75%;
+    margin: auto;
+}
+#phones #bodyforphones #filter ul{
+    list-style: none;
+    padding: 0px;
+}
+#phones #bodyforphones #filter h5{
+    padding-right: 25px;
+}
+#phones #collectionphones{
+    width: 75%;
+    margin: auto;
+
+}
+#phones img{
+    width: 280px;
+    height: 280px;
+}
+#phones a{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    text-decoration: none;
+}
+#phones img:hover{
+border-radius: 20px;
+transform: scale(1.1);
+transition: 1.5s;
+}
+
+#laptops{
+    width: 70%;
+    margin: auto;
+}
+#laptops img{
+    width: 280px;
+    height: 280px;
+}
+#laptops a{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+#laptops img:hover{
+border-radius: 20px;
+transform: scale(1.1);
+transition: 1.5s;
+}
+
+#yourlapptopyouruse{
+    margin: 65px;
+}
+#yourlapptopyouruse1 .headalluruse{
+    display: flex;
+}
+#yourlapptopyouruse1 .headalluruse div {
+    width: 25%;
+    height: 270px;
+    overflow: hidden;
+    padding: 20px;
+}
+#yourlapptopyouruse1 .headalluruse div img{
+    border-radius: 30px;
+    width: 100%;
+}
+
+#yourlapptopyouruse1 .headalluruse div img:hover{
+    border-radius: 70px;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+#gaming{
+    width: 70%;
+    margin: auto;
+}
+#gaming img{
+    width: 280px;
+    height: 280px;
+}
+#gaming a{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+#gaming img:hover{
+border-radius: 20px;
+transform: scale(1.1);
+transition: 1.5s;
+}
+
+
+#footersection {
+    margin: 30px 160px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+#footersection #coonectwithus h5{
+    margin-bottom: 20px;
+}
+
+#footersection #coonectwithus form input{
+    width: 225px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+#footersection #coonectwithus button{
+    width: 40px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    position:relative ;
+    left: -41px;
+    top: -1px;
+    background-color: white;
+}
+#footersection #coonectwithus i{
+    font-size: 20px
+   
+}
+
+#footersection #coonectwithus form span{
+    color: red;
+}
+
+#footersection div #logos ul {
+
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 20px;
+    
+}
+#footersection div #logos ul a{
+    color: white;
+    text-decoration: none;
+}
+#footersection #usefulllinks ul a{
+    color: white;
+    text-decoration: none;
+
+}
+#footersection #usefulllinks ul{
+    padding-left: 0px;
+}
+#footersection #usefulllinks ul li {
+    list-style: none;
+}
+#footersection #products ul a{
+    color: white;
+    text-decoration: none;
+
+}
+#footersection #products ul{
+    padding-left: 0px;
+}
+#footersection #products ul li {
+    list-style: none;
+}
+#gaming{
+    display: none;
+}
+#phones0{
+    display: none;
+}
